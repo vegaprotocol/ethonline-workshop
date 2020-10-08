@@ -13,10 +13,11 @@
 
   function emoji(tx) {
     if (tx.size > 5000) return '🐳'; 
-    if (tx.size > 1000) return '🐬';
-    if (tx.size > 500) return '🐡'; 
-    if (tx.size > 100) return '🐟';
-    if (tx.size > 10) return '🦐';
+    if (tx.size > 2000) return '🦈';
+    if (tx.size > 1000) return '🐬'; 
+    if (tx.size > 500) return '🐡';
+    if (tx.size > 200) return '🐟';
+    if (tx.size > 100) return '🦐';
     return '🦠';
   }
 
