@@ -2,7 +2,7 @@
 
 This is the example coded during the ETHOnline "Vega 101 for front end devs" session, which can be found on YouTube here: https://www.youtube.com/watch?v=5fwHg3iZmNk
 
-Use `npm install` to in etiher subdirectory to install dependencies then `npm run dev` to run the hot-reloading dev server.
+Use `npm install` to in either subdirectory to install dependencies then `npm run dev` to run the hot-reloading dev server.
 
 There are two projects here:
 
