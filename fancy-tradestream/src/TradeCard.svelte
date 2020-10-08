@@ -3,7 +3,7 @@
 
   function sizeByVolume(tx) {
     const [MIN_SIZE, MAX_SIZE] = [8, 36];
-    const BIG_TRADE = 5000;
+    const BIG_TRADE = 10000;
     return Math.min(MAX_SIZE, (MIN_SIZE + ((tx.size / BIG_TRADE) * (MAX_SIZE - MIN_SIZE)))) + 'pt';
   }
 
@@ -12,12 +12,12 @@
   }
 
   function emoji(tx) {
-    if (tx.size > 5000) return '🐳'; 
-    if (tx.size > 2000) return '🦈';
-    if (tx.size > 1000) return '🐬'; 
-    if (tx.size > 500) return '🐡';
-    if (tx.size > 200) return '🐟';
-    if (tx.size > 100) return '🦐';
+    if (tx.size > 7000) return '🐳'; 
+    if (tx.size > 5500) return '🦈';
+    if (tx.size > 4000) return '🐬'; 
+    if (tx.size > 2000) return '🐡';
+    if (tx.size > 250) return '🐟';
+    if (tx.size > 50) return '🦐';
     return '🦠';
   }
 
