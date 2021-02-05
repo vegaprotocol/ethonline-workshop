@@ -2,7 +2,7 @@
 	import { recentTrades } from './stores';
 	import TradeCard from './TradeCard.svelte';
 
-	let nodeUrl = 'NODE_URL_HERE';
+	let nodeUrl = 'lb.testnet.vega.xyz';
 	let samplePercentage = 100.0;
 	const trades = recentTrades(tx => Math.random() < (samplePercentage / 100), `wss://${nodeUrl}/query`);
 </script>
