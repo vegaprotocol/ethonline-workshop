@@ -2,7 +2,7 @@ import { readable } from 'svelte/store';
 import { SubscriptionClient } from 'subscriptions-transport-ws';
 
 
-const GRAPHQL_ENDPOINT = 'VEGA_NODE_URL_SERVING_GRAPHQL_GOES_HERE';
+const GRAPHQL_ENDPOINT = 'lb.testnet.vega.xyz';
 
 const TRADES_QUERY = 'subscription { trades { price size buyer { id } seller { id } id } }';
 const MAX_TRADES = 256;
